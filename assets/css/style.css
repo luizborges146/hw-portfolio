@@ -108,9 +108,10 @@ form{
     display: flex;
     text-align: center;/*need to check with one of the TA*/
     padding: 10px 10px 20px;
-    padding-left: 50%;
+    padding-left: 40%;
     color: var(--white-color);
     border: 5px solid green; /*need to remove, just checking the border*/
+    font-size: 150%;
 
 }
 
@@ -145,5 +146,7 @@ form{
 
 .about-descr p{
     color: var(--white-color);
-    
+    letter-spacing: 1px;
+
 }
+/*----------------------End of the About me------------------------------*/
