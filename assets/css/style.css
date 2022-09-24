@@ -16,5 +16,21 @@ main{
     width: 100%;
     height: 100vh;
     background: var(--dark-back-c);
-    background-position: center;
+    /*background-position: center; I am not sure if I am using my image as a background yet :)*/
+}
+/**/
+nav {
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+    padding-top: 40px;
+    border: 5px solid white;
+}
+/**/
+nav ul li{
+    display:inline-block
+}
+
+nav ul li a{
+    color:rgb(226, 226, 226);
 }
