@@ -1,0 +1,13 @@
+:root{
+    --dark-back-c:rgb(11,11,26);
+    --light-back-c:rgb(27,27,59);
+    --btn-color:#eb1a5c;
+}
+
+*{
+    padding:0;
+    margin:0;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    box-sizing: border-box;
+}
+
