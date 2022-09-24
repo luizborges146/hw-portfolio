@@ -4,6 +4,7 @@
     --light-back-c:rgb(27,27,59);
     --btn-color:#eb1a5c;
     --white-color:rgb(226, 226, 226);
+    --border-r:30px;
 }
 /*Universal selector*/
 *{
@@ -54,7 +55,7 @@ nav ul li a{
 .button {
     background-color: var(--btn-color);
     color: var(--white-color);
-    border-radius: 30px;
+    border-radius: var(--border-r);
     padding: 7px 12px;
     text-decoration: none;
     border:2px solid transparent;
@@ -62,3 +63,35 @@ nav ul li a{
 }
 /*---------------------------------------------------------------------------------*/
 
+.my-name{
+    position:absolute;
+    top: 50%;
+    left:10%;
+}
+
+h2, h3 {
+    color:var(--white-color);
+    margin: 15px 0px;
+    font-size: 35px; /*check if i need to separete the font size*/
+
+}
+
+form{
+    width: 350px;/*need to check why it is not changing*/
+    position:relative;
+    border: 5px solid white;/*need to be removed just checking the boarder around nav*/
+}
+
+.more-info form input:first-child{
+    width:100%;
+    border:3px solid var(--btn-color);
+    border-radius: 30px;
+    padding:0px 5px 0px 5px;
+}
+
+.more-info form input:last-child{
+    display: inline-block;
+    width: 100%;
+    border-radius: var(--border-r);
+
+}
