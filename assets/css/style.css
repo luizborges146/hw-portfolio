@@ -3,6 +3,7 @@
     --dark-back-c:rgb(11,11,26);
     --light-back-c:rgb(27,27,59);
     --btn-color:#eb1a5c;
+    --white-color:rgb(226, 226, 226);
 }
 /*Universal selector*/
 *{
@@ -16,7 +17,7 @@ main{
     width: 100%;
     height: 100vh;
     background: var(--dark-back-c);
-    /*background-position: center; I am not sure if I am using my image as a background yet :)*/
+    border: 5px solid darkgreen;/*need to be removed just checking the boarder around main*/
 }
 /**/
 nav {
@@ -24,13 +25,40 @@ nav {
     display:flex;
     align-items: center;
     padding-top: 40px;
-    border: 5px solid white;
+    border: 5px solid white;/*need to be removed just checking the boarder around nav*/
+    padding-right: 5%;
+    padding-left: 5%;
 }
 /**/
 nav ul li{
-    display:inline-block
+    display:inline-block;/*to display the list in line*/
+    list-style-type: none;
+    letter-spacing:1px;
+    padding:10px 20px;
 }
 
 nav ul li a{
-    color:rgb(226, 226, 226);
+    color:var(--white-color);
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;/*to remove the line under the words*/
+
 }
+
+.logo{
+    color:var(--white-color);
+    font-size:175%; /*Need to check if the font will get smaller as I shurink the page*/
+    letter-spacing:1px;
+}
+
+.button {
+    background-color: var(--btn-color);
+    color: var(--white-color);
+    border-radius: 30px;
+    padding: 7px 12px;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+}
+/*---------------------------------------------------------------------------------*/
+
