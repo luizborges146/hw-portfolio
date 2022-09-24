@@ -85,7 +85,7 @@ form{
 .more-info form input:first-child{
     width:100%;
     border:3px solid var(--btn-color);
-    border-radius: 30px;
+    border-radius: var(--border-r);
     padding:0px 5px 0px 5px;
 }
 
@@ -93,5 +93,21 @@ form{
     display: inline-block;
     width: 100%;
     border-radius: var(--border-r);
+    background-color: var(--btn-color);
+    color:var(--white-color);
 
+}
+/*----------------------------------- End of the main page--------------------------------*/
+#about-me{
+    width: 100%;
+    background-color: var(--light-back-c);
+}
+
+#about-me img{
+    height:auto;
+    width:430px;
+}
+
+.about-descr{
+    width: 500px;
 }
