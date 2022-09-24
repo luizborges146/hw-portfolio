@@ -101,13 +101,49 @@ form{
 #about-me{
     width: 100%;
     background-color: var(--light-back-c);
+    border: 5px solid white;/*need to remove, just checking the border*/
+}
+
+.title-am {
+    display: flex;
+    text-align: center;/*need to check with one of the TA*/
+    padding: 10px 10px 20px;
+    padding-left: 50%;
+    color: var(--white-color);
+    border: 5px solid green; /*need to remove, just checking the border*/
+
+}
+
+.body-am{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:0% 5% 5% 5%;
+    /*
+    width:1000px;
+    max-width: 95%;
+    */
 }
 
 #about-me img{
     height:auto;
     width:430px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px black;
+    border:1px solid var(--btn-color);
+    margin:5px;
 }
 
 .about-descr{
     width: 500px;
+}
+
+.about-descr h3{
+    color:var(--white-color);
+    text-transform: capitalize;
+}
+
+.about-descr p{
+    color: var(--white-color);
+    
 }
