@@ -13,9 +13,7 @@
     padding:0;
     margin:0;
 }
-body{
-    margin:0;
-}
+
 /**/
 main{
     width: 100%;
@@ -91,7 +89,7 @@ form{
 
 .more-info form input:first-child{
     width:100%;
-    border:3px solid var(--btn-color);
+    border:3px solid transparent;
     border-radius: var(--border-r);
     padding:0px 5px 0px 5px;
 }
@@ -105,10 +103,11 @@ form{
 
 }
 /*----------------------------------- End of the main page--------------------------------*/
-#about-me{
+.about-me{
     width: 100%;
     background-color: var(--light-back-c);
-    /*border: 5px solid white;need to remove, just checking the border*/
+    padding:60px 0px;
+    border: 5px solid transparent;/*need to remove, just checking the border*/
 
 }
 
@@ -116,29 +115,37 @@ form{
     display: flex;
     text-align: center;/*need to check with one of the TA*/
     padding: 10px 10px 20px;
-    padding-left: 40%;
     color: var(--white-color);
     /*border: 5px solid green; need to remove, just checking the border*/
     font-size: 150%; 
+}
+
+.title-am h1{
+    text-align: center;
+    margin: 25px auto;
+    font-size: 50px;
 }
 
 .body-am{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin:0% 5% 5% 5%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom:5% ;
+    margin-left: 2;
     /*
     width:1000px;
     max-width: 95%;
     */
 }
 
-#about-me img{
+.about-me img{
     height:auto;
     width:430px;
     border-radius: 15px;
     box-shadow: 0px 0px 5px black;
-    border:1px solid var(--btn-color);
+    border:1px solid transparent;
     margin:5px;
 }
 
@@ -167,7 +174,7 @@ form{
     color: var(--white-color);
     text-align: center;
     margin: 25px auto;
-    font-size: 60px;
+    font-size: 50px;
     width: 1100;
     
 }
