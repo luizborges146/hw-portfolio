@@ -22,8 +22,7 @@ main{
     height: 100vh;
     background: var(--dark-back-c);
 }
-/**/
-
+/*Added fixed position to the marding*/
 nav {
     justify-content: space-between;
     background-color: var(--dark-back-c);
@@ -35,7 +34,7 @@ nav {
     top: 0;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 1; /*Applied z-index to remove the transparency from the the heder*/
 
 }
 /**/
@@ -178,6 +177,7 @@ box {
     align-items: center;
     justify-content: center;
     min-height: 400px;
+    border: 2px solid white;
 }
 
 .card {
@@ -212,11 +212,15 @@ h5{
 .in-box p{
     color:var(--white-color);
     font-size: 16px;
-    margin-bottom: 25px;
-    line-height: 27px;
+    margin-bottom: 20px;
+    line-height: 25px;
 }
 
 .card .button{
     padding: 9px 22px;
+    color: var(--white-color);
+    font-weight: bold;
+    border-radius: var(--border-r);
+
 }
 
