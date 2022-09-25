@@ -13,22 +13,25 @@
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     box-sizing: border-box;
 }
+body{
+    margin:0;
+}
 /**/
 main{
     width: 100%;
     height: 100vh;
     background: var(--dark-back-c);
-    border: 5px solid darkgreen;/*need to be removed just checking the boarder around main*/
 }
 /**/
+
 nav {
     justify-content: space-between;
     display:flex;
     align-items: center;
     padding-top: 40px;
-    border: 5px solid white;/*need to be removed just checking the boarder around nav*/
     padding-right: 5%;
     padding-left: 5%;
+
 }
 /**/
 nav ul li{
@@ -205,5 +208,10 @@ h5{
     color:var(--white-color);
     font-size: 16px;
     margin-bottom: 25px;
+    line-height: 27px;
+}
+
+.card .button{
+    padding: 9px 22px;
 }
 
