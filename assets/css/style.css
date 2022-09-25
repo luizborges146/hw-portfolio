@@ -163,16 +163,16 @@ form{
     width: 100%;
 }
 
-title h2{
+.title h2{
     color: var(--white-color);
     text-align: center;
     margin: 25px auto;
-    font-size: 80px;
+    font-size: 60px;
     width: 1100;
     
 }
 
-box {
+.box {
     display:flex;
     align-items: center;
     justify-content: center;
@@ -258,3 +258,18 @@ h5{
     margin:30px
 
  }
+/*------------------------- footer--------------------*/
+
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: var(--dark-back-c);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+footer p{
+    color: var(--white-color);
+}
