@@ -246,12 +246,12 @@ h5{
 }
  .link-social a{
     color:var(--white-color);
-    font-size: 60px;
+    font-size: 40px;
     text-decoration: none;
     width: 70px;
     height: 70px;
     background-color: var(--btn-color);
-    border-radius: var(--border-r);
+    border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
