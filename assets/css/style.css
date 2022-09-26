@@ -51,8 +51,14 @@ nav ul li a{
     font-weight: bold;
     text-transform: capitalize;
     text-decoration: none;/*to remove the line under the words*/
-
 }
+
+nav ul li a:hover{
+    color:var(--btn-color);
+    transition: .5s;
+    transform:scale(1.1);
+}
+
 
 .logo{
     color:var(--white-color);
@@ -70,7 +76,9 @@ nav ul li a{
     font-weight: bold;
 }
 /*---------------------------------------------------------------------------------*/
-.mp .main-card{
+.main-card{
+    width: auto;
+    height: auto;
     border:2px solid white;
 }
 .my-name{
@@ -78,8 +86,14 @@ nav ul li a{
     top: 50%;
     left:10%;
     transform:translateY(-50%);
-    /*border: 2px solid green;*/
+    border: 2px solid green;
 }
+
+.change-color:hover{
+    color:var(--btn-color);
+    transition: .5s;
+}
+
 
 h2, h3 {
     color:var(--white-color);
@@ -94,7 +108,7 @@ h2, h3 {
     height: 500px;
     width: auto;
     border-radius: 75px;
-    /*border: 2px solid green;*/
+    border: 2px solid green;
 }
 
 
@@ -154,7 +168,7 @@ form{
     margin-left: 5%;
     margin-bottom:5% ;
     margin-left: 2;
-    border: 5px solid white;
+    
     /*
     width:1000px;
     max-width: 95%;
@@ -253,7 +267,7 @@ h5{
 
 }
 
-/* contact and social*/
+/* --------------------contact and social------------------------------------*/
 .contact-info{
     background-color: var(--light-back-c);
     width:100%;
@@ -262,6 +276,12 @@ h5{
     align-items: center;
     flex-direction: column;
     justify-content: center;
+}
+.contact-info h2{
+    color: var(--white-color);
+    text-align: center;
+    margin: 25px auto;
+    font-size: 50px;
 }
 
 .contact-info p{
