@@ -338,10 +338,10 @@ ul#port-photos li {
 	height:215px;
 	margin:10px;
     margin-right: 25px;
-	border: 1px solid var(--btn-color);
+	border: 2px solid var(--white-color);
 	background-color: #ffffff;
 	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
-	-webkit-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
 }
 
 ul#port-photos li#pic01 {
@@ -360,7 +360,7 @@ ul#port-photos li span {
 }
 
 ul#port-photos li:hover {
-	-webkit-transform:scale(1.1);
+	transform:scale(1.1);
 	
 }
 
