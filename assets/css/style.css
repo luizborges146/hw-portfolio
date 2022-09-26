@@ -86,7 +86,6 @@ nav ul li a:hover{
     top: 50%;
     left:10%;
     transform:translateY(-50%);
-    border: 2px solid green;
 }
 
 .change-color:hover{
@@ -108,7 +107,6 @@ h2, h3 {
     height: 500px;
     width: auto;
     border-radius: 75px;
-    border: 2px solid green;
 }
 
 
@@ -322,3 +320,87 @@ footer{
 footer p{
     color: var(--white-color);
 }
+
+/*-- ############################################################################## --*/
+/*-- ############################################################################## --*/
+ul#port-photos {
+	width:1100px;
+	margin:0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+    flex-wrap: wrap;
+}
+
+ul#port-photos li {
+	float:left;
+	width:430px;
+	height:215px;
+	margin:10px;
+    margin-right: 25px;
+	border: 1px solid var(--btn-color);
+	background-color: #ffffff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	-webkit-transition: all 0.3s ease-in;
+}
+
+ul#port-photos li#pic01 {
+    width:900px;
+	height:auto;
+}
+
+ul#port-photos li span {
+    font-size: 32px;
+	opacity:1;
+	color: #ffffff;
+	text-shadow:1px 1px 1px #000000;
+	background-color: rgba(0,0,0,1);
+	line-height:370px;
+	
+}
+
+ul#port-photos li:hover {
+	-webkit-transform:scale(1.1);
+	
+}
+
+ul#port-photos li:hover span{
+	opacity:1;
+}
+
+ul#port-photos li#pic01 {
+	background: url('../images/google-glass.png') no-repeat;
+	background-position:50% 50%;
+	/*background-size: 400px 400px;*/
+	background-color:#ffffff;
+}
+
+ul#port-photos li#pic01:hover {
+	background-position:0px 0px;
+	background-size:100%;
+}
+
+ul#port-photos li#pic02 {
+	background: url('../images/seo.png') no-repeat;
+	background-position:50% 50%;
+	/*background-size: 400px 400px;*/
+	background-color:#ffffff;
+}
+ul#port-photos li#pic02:hover {
+	background-position:0px 0px;
+	background-size:100%;
+}
+
+ul#port-photos li#pic03 {
+	background: url('../images/snippet-cheatsheet.png') no-repeat;
+	background-position:50% 50%;
+	/*background-size: 400px 400px;*/
+	background-color:#ffffff;
+}
+ul#port-photos li#pic03:hover {
+	background-position:0px 0px;
+	background-size:100%;
+}
+
+/*-- ############################################################################## --*/
+/*-- ############################################################################## --*/    
