@@ -72,14 +72,27 @@ nav ul li a{
     position:absolute;
     top: 50%;
     left:10%;
+    transform:translateY(-50%);
+    /*border: 2px solid green;*/
 }
 
 h2, h3 {
     color:var(--white-color);
     margin: 15px 0px;
     font-size: 35px; /*check if i need to separete the font size*/
-
 }
+
+.picture-main img{
+    position:absolute;
+    top:20%;
+    right:10%;
+    height: 500px;
+    width: auto;
+    border-radius: 75px;
+    /*border: 2px solid green;*/
+}
+
+
 /*
 form{
     width: 350px;/*need to check why it is not changing
