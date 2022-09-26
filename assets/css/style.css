@@ -9,7 +9,7 @@
 /*Universal selector*/
 *{
     box-sizing: border-box;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: 'Josefin Sans', sans-serif;
     padding:0;
     margin:0;
 }
@@ -80,11 +80,11 @@ h2, h3 {
     font-size: 35px; /*check if i need to separete the font size*/
 
 }
-
+/*
 form{
-    width: 350px;/*need to check why it is not changing*/
+    width: 350px;/*need to check why it is not changing
     position:relative;
-    /*border: 5px solid white;need to be removed just checking the boarder around nav*/
+    /*border: 5px solid white;need to be removed just checking the boarder around nav
 }
 
 .more-info form input:first-child{
@@ -102,6 +102,7 @@ form{
     color:var(--white-color);
 
 }
+*/
 /*----------------------------------- End of the main page--------------------------------*/
 .about-me{
     width: 100%;
