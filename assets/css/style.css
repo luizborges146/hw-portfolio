@@ -1,10 +1,10 @@
 /*Create variables to be used, so I dont need change repetitive attribuits*/
 :root{
-    --dark-back-c:rgb(11,11,26);
-    --light-back-c:rgb(27,27,59);
-    --btn-color:#eb1a5c;
-    --white-color:rgb(226, 226, 226);
-    --border-r:30px;
+    --dark-back-c:rgb(11,11,26);/* set up two background color DARK*/
+    --light-back-c:rgb(27,27,59);/* set up two background color light*/
+    --btn-color:#eb1a5c;/*apply some color to specifics place*/
+    --white-color:rgb(226, 226, 226);/*white color is too bright, so i created a off-white color to help with the visual*/
+    --border-r:30px;/*to create a nice round effect */
 }
 /*Universal selector*/
 *{
@@ -15,10 +15,10 @@
     scroll-behavior: smooth;
 }
 
-/**/
+
 main{
     width: 100%;
-    height: 100vh;
+    height: 100vh;/*Used vh to get the whole page as the main*/
     margin-top: 95px;
     background: var(--dark-back-c);
     display:flex;
@@ -45,7 +45,7 @@ nav {
 nav ul li{
     display:inline-block;/*to display the list in line*/
     list-style-type: none;
-    letter-spacing:1px;
+    letter-spacing:1px;/*to apply more space between the letters*/
     padding:10px 20px;
     
 }
@@ -53,10 +53,10 @@ nav ul li{
 nav ul li a{
     color:var(--white-color);
     font-weight: bold;
-    text-transform: capitalize;
+    text-transform: capitalize;/*makes the first letter on each word to be capitalized*/
     text-decoration: none;/*to remove the line under the words*/
 }
-
+/*give an effect to the word changing the word when hover over*/
 nav ul li a:hover{
     color:var(--btn-color);
     transition: .5s;
@@ -82,7 +82,7 @@ nav ul li a:hover{
 */
 /*---------------------------------------------------------------------------------*/
 
-
+/*create a class called change color, so when hover over the words, it change the color*/
 .change-color:hover{
     color:var(--btn-color);
     transition: .5s;
@@ -126,7 +126,7 @@ h2, h3 {
 }
 
 .body-am{
-    display: flex;
+    display: flex;/*when reduce the screen size, the item does not go over each other*/
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
@@ -153,11 +153,14 @@ h2, h3 {
 .about-descr h3{
     color:var(--white-color);
     text-transform: capitalize;
+    line-height: 1.6;
 }
 
 .about-descr p{
     color: var(--white-color);
     letter-spacing: 1.5px;
+    line-height: 1.6;/*create more space between the lines*/
+
 
 }
 /*----------------------End of the About me------------------------------*/
@@ -331,9 +334,9 @@ ul#port-photos li:hover {
 ul#port-photos li:hover span{
 	opacity:1;
 }
-
+/*Add the picture to the page*/
 ul#port-photos li#pic01 {
-	background: url('../images/google-glass.png') no-repeat;
+	background: url('../images/google-glass.png') no-repeat;/*	The background-image is not repeated. The image will only be shown once*/
 	background-position:50% 50%;
 	background-color:#ffffff;
 }
@@ -363,7 +366,7 @@ ul#port-photos li#pic03:hover {
 	background-size:100%;
 }
 /*-- ############################################################################## --*/  
-
+/*As I decided to apply some fixed dimention to the pictures and some of the boxes, I create s media-screen to re-size the pictures for the mobile phone  */
 @media screen and (max-width: 768px) {
     main {
         display: flex;
