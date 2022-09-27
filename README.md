@@ -1,33 +1,9 @@
-# hw-portfolio
-Create a portifolio
+# Description
+This project applies all the skills learned on week 1 of the bootcamp, the skills consists in HTML and how to structure the page using semantics elements, and CSS to style the page. 
+The Portfolio was created by me, and the aim is to have a clean interface, not adding loads of colors, making it easy to read and navigate through the page. I also create as responsive as possible, in case the user has different monitor size or even try to open on the mobile phone. Another characteristic of the Portfolio, was to display some of the work I have done and also how to contact me.
 
 
-links used:
-* https://www.w3schools.com/howto/howto_css_fixed_menu.asp
-* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu
-* https://www.w3schools.com/html/html_symbols.asp
-* https://www.w3schools.com/cssref/pr_scroll-behavior.asp
-
-* https://fontawesome.com/icons/chrome?s=&f=brands
-
-
-
-
-
-
-# Optimize website,
-Optimize website, consolidate and organize semantic structure
-
-
-
-## Description
-
-On this assignment, optimizing the website to be more accessible was the goal and also modifying the CSS to eliminate redundant code.
-
-Also corrected some of the errors on the HTML file where the Search Engine Optimization did not lead the user to the correct part of the page, the issue consisted on the tag set as a class instead of id. Not only that, I also alternate text for the images to follow the accessibility standards, and improved the semantic elements.
-
-###### Note* I have removed the <span class="seo">seo</span> for the fact I could not see the difference in color, I use my both monitors as eye saver mode, and because the brightness is lower, was not difference. As part of my test, I increased the brightness on my screen to confirm if there was any difference, and I still could not find much difference, so that I removed the code as did not impact as much. I left the code as  a comment in case it needs to be added back. I understand that the SEO (Search Engine Optimization) is part of the logo, but for the fact the colors are too close, I decided to remove it, leaving the same color for the whole logo.
-
+* [Luiz Borges Portifolio](https://luizborges146.github.io/hw-portfolio/)
 
 ## Installation
 
@@ -35,17 +11,26 @@ N/A
 
 ## Usage
 
-The website is a search engine optimization with a friendly user interface, contain important facts about the subject. It is a page with interactive elements using HTML and CSS.
+The website is a portfolio to display my skills in creating web page, so it contains links for my previously deployed web pages and also a section to contact me (Luiz Borges).
+ 
+I also applied some style to make the page more dynamic and fun to use it:
+
+* ![alt text](assets/images/screenshot-of-hover-image.png)
+
+As some of the images, I decided to have a fix height or width, I create a media screen to resize some of the pictures in case the user try to check the information in a smaller screen size.
+* ![alt text](assets/images/media-screen-resize.png)
 
 ## External support documentation
 
 As part of the process, I used some references to complete the task:
 
-<a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">Semantic Elements - W3Schools</a><br />
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">Mozilla Org</a><br />
-<a href="https://docs.readme.com/docs/linking-to-pages" target="_blank">Docs READ.me</a><br />
-[GitHub](https://pages.github.com/)<br />
-[Git_cheat_sheet_pdf](https://education.github.com/git-cheat-sheet-education.pdf)<br />
+
+* [Font Awesome](https://fontawesome.com/)<br />
+* [W3School](https://www.w3schools.com/)<br />
+* [Mozilla](https://developer.mozilla.org)<br />
+* [READ.me](https://docs.readme.com/docs/linking-to-pages")<br />>
+* [GitHub](https://pages.github.com/)<br />
+* [Git_cheat_sheet_pdf](https://education.github.com/git-cheat-sheet-education.pdf)<br />
 
 
 ## Social

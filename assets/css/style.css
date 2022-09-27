@@ -81,17 +81,7 @@ nav ul li a:hover{
     font-weight: bold;
 }
 /*---------------------------------------------------------------------------------*/
-.main-card{
-    /* width: auto;
-    height: auto; */
-    /* border:2px solid white; */
-}
-.my-name{
-    /* position:absolute;
-    top: 50%;
-    left:10%;
-    transform:translateY(-50%); */
-}
+
 
 .change-color:hover{
     color:var(--btn-color);
@@ -106,38 +96,12 @@ h2, h3 {
 }
 
 .picture-main img{
-    /* position:absolute;
-    top:20%;
-    right:10%; */
     height: 500px;
     width: auto;
     border-radius: 75px;
 }
 
 
-/*
-form{
-    width: 350px;/*need to check why it is not changing
-    position:relative;
-    /*border: 5px solid white;need to be removed just checking the boarder around nav
-}
-
-.more-info form input:first-child{
-    width:100%;
-    border:3px solid transparent;
-    border-radius: var(--border-r);
-    padding:0px 5px 0px 5px;
-}
-
-.more-info form input:last-child{
-    display: inline-block;
-    width: 100%;
-    border-radius: var(--border-r);
-    background-color: var(--btn-color);
-    color:var(--white-color);
-
-}
-*/
 /*----------------------------------- End of the main page--------------------------------*/
 .about-me{
     width: 100%;
@@ -152,7 +116,6 @@ form{
     text-align: center;/*need to check with one of the TA*/
     padding: 10px 10px 20px;
     color: var(--white-color);
-    /*border: 5px solid green; need to remove, just checking the border*/
     font-size: 150%; 
 }
 
@@ -322,8 +285,8 @@ footer p{
     color: var(--white-color);
 }
 
-/*-- ############################################################################## --*/
-/*-- ############################################################################## --*/
+
+/*-- ##########################     Gallery   ############################## --*/
 ul#port-photos {
 	width:1100px;
 	margin:0 auto;
@@ -402,8 +365,6 @@ ul#port-photos li#pic03:hover {
 	background-position:0px 0px;
 	background-size:100%;
 }
-
-/*-- ############################################################################## --*/
 /*-- ############################################################################## --*/  
 
 @media screen and (max-width: 768px) {
