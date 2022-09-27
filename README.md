@@ -10,6 +10,11 @@ links used:
 
 * https://fontawesome.com/icons/chrome?s=&f=brands
 
+
+
+
+
+
 # Optimize website,
 Optimize website, consolidate and organize semantic structure
 

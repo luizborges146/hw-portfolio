@@ -20,7 +20,11 @@
 main{
     width: 100%;
     height: 100vh;
+    margin-top: 95px;
     background: var(--dark-back-c);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
 }
 /*Added fixed position to the marding*/
 nav {
@@ -35,7 +39,8 @@ nav {
     top: 0;
     position: fixed;
     width: 100%;
-    z-index: 1; /*Applied z-index to remove the transparency from the the heder*/
+    z-index: 1; /*Applied z-index to remove the transparency from the the header*/
+    
 }
 /**/
 nav ul li{
@@ -77,15 +82,15 @@ nav ul li a:hover{
 }
 /*---------------------------------------------------------------------------------*/
 .main-card{
-    width: auto;
-    height: auto;
-    border:2px solid white;
+    /* width: auto;
+    height: auto; */
+    /* border:2px solid white; */
 }
 .my-name{
-    position:absolute;
+    /* position:absolute;
     top: 50%;
     left:10%;
-    transform:translateY(-50%);
+    transform:translateY(-50%); */
 }
 
 .change-color:hover{
@@ -101,9 +106,9 @@ h2, h3 {
 }
 
 .picture-main img{
-    position:absolute;
+    /* position:absolute;
     top:20%;
-    right:10%;
+    right:10%; */
     height: 500px;
     width: auto;
     border-radius: 75px;
@@ -167,10 +172,6 @@ form{
     margin-bottom:5% ;
     margin-left: 2;
     
-    /*
-    width:1000px;
-    max-width: 95%;
-    */
 }
 
 .about-me img{
@@ -193,7 +194,7 @@ form{
 
 .about-descr p{
     color: var(--white-color);
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 
 }
 /*----------------------End of the About me------------------------------*/
@@ -403,4 +404,30 @@ ul#port-photos li#pic03:hover {
 }
 
 /*-- ############################################################################## --*/
-/*-- ############################################################################## --*/    
+/*-- ############################################################################## --*/  
+
+@media screen and (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 175px;
+    }
+
+    .about-me img{
+        height:auto;
+        width:350px;
+    }
+
+    ul#port-photos li#pic01 {
+        width:315px;
+        height:auto;
+    }
+
+    ul#port-photos li {
+        width:230px;
+	    height:115px;
+    }
+
+
+  }
+  
