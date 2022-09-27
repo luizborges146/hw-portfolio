@@ -28,7 +28,7 @@ As part of the process, I used some references to complete the task:
 * [Font Awesome](https://fontawesome.com/)<br />
 * [W3School](https://www.w3schools.com/)<br />
 * [Mozilla](https://developer.mozilla.org)<br />
-* [READ.me](https://docs.readme.com/docs/linking-to-pages")<br />>
+* [READ.me](https://docs.readme.com/docs/linking-to-pages")<br />
 * [GitHub](https://pages.github.com/)<br />
 * [Git_cheat_sheet_pdf](https://education.github.com/git-cheat-sheet-education.pdf)<br />
 
