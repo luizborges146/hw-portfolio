@@ -12,7 +12,6 @@
     font-family: 'Josefin Sans', sans-serif;
     padding:0;
     margin:0;
-    
     scroll-behavior: smooth;
 }
 
@@ -335,7 +334,6 @@ ul#port-photos li:hover span{
 ul#port-photos li#pic01 {
 	background: url('../images/google-glass.png') no-repeat;
 	background-position:50% 50%;
-	/*background-size: 400px 400px;*/
 	background-color:#ffffff;
 }
 
@@ -347,7 +345,6 @@ ul#port-photos li#pic01:hover {
 ul#port-photos li#pic02 {
 	background: url('../images/seo.png') no-repeat;
 	background-position:50% 50%;
-	/*background-size: 400px 400px;*/
 	background-color:#ffffff;
 }
 ul#port-photos li#pic02:hover {
@@ -358,7 +355,6 @@ ul#port-photos li#pic02:hover {
 ul#port-photos li#pic03 {
 	background: url('../images/snippet-cheatsheet.png') no-repeat;
 	background-position:50% 50%;
-	/*background-size: 400px 400px;*/
 	background-color:#ffffff;
 }
 ul#port-photos li#pic03:hover {
