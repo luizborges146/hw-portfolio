@@ -69,7 +69,7 @@ nav ul li a:hover{
     font-size:175%; /*Need to check if the font will get smaller as I shurink the page*/
     letter-spacing:1px;
 }
-
+/* A new feture will be coming soon
 .button {
     background-color: var(--btn-color);
     color: var(--white-color);
@@ -79,6 +79,7 @@ nav ul li a:hover{
     border:2px solid transparent;
     font-weight: bold;
 }
+*/
 /*---------------------------------------------------------------------------------*/
 
 
